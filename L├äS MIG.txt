@@ -1,0 +1,17 @@
+DREAD & DICE – installera som app
+
+1. Lägg upp hela den här mappen på en webbplats med https.
+   Enklast: gå till https://app.netlify.com/drop i Chrome på datorn
+   och dra mappen dit. Du får en adress som slutar på .netlify.app.
+   (GitHub Pages fungerar också.)
+
+2. Öppna adressen i Chrome på telefonen.
+
+3. Tryck på ⋮ och välj "Installera app" (eller "Lägg till på startskärmen").
+
+Spelet startar då i helskärm från sin egen ikon och fungerar offline
+efter första starten. Sparningen ligger i appen, separat från
+versionen i Claude.
+
+Ny version: ersätt index.html på webbplatsen och öka siffran i
+CACHE-raden i sw.js (dread-and-dice-v1 -> v2).
